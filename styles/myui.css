@@ -1,0 +1,63 @@
+.bkimg{
+    background-image: url(../duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol{
+    color: #000000 !important;
+ }
+
+ .join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+.uk-card {
+    margin: 0; /* Remove default margin */
+  }
+
+  .uk-card-header,
+  .uk-card-body,
+  .uk-card-footer {
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .myfooter img {
+    height: 200px; /* Set a fixed height for the images */
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.uk-card-body {
+    min-height: 150px; /* Set a minimum height for the card bodies */
+}
+
+.mytext{
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .mycard {
+      top: 0;
+      /*  */
+      left: 0;
+      width: 100%;
+      order: -1;
+  }
+
+  .uk-grid{
+    display:  block;
+    width: 100%;
+  }
+
+  .uk-width-1-2\@s{
+    width: 100%;
+  }
+
+  .uk-padding{
+    flex-direction: column-reverse;
+  }
+  
+}
+
